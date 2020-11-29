@@ -7,3 +7,9 @@ if time.to_i % 2 == 0
 else
   puts "Odd!"
 end
+
+if time.even?
+  puts "Even!"
+else
+  puts "Odd!"
+end
