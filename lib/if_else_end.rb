@@ -8,7 +8,7 @@ else
   puts "Odd!"
 end
 
-if time.even?
+if time.to_i.even?
   puts "Even!"
 else
   puts "Odd!"
